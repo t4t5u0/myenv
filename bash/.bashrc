@@ -76,7 +76,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\e[35m\]\u\[\e[m\]\[\e[37m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]$(__git_ps1 "[%s]") \$ '
+    PS1='\[\e[1;35m\]\u\[\e[m\]\[\e[37m\]@\[\e[m\]\[\e[1;32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]$(__git_ps1 "[%s]") \$ '
     # PS1='\033[\[35m\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] $(__git_ps1 "(%s)") \$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\ $(__git_ps1 "(%s)") $ '
@@ -142,6 +142,7 @@ cd ()
 }
 
 alias python="python3"
+alias open="xdg-open"
 alias kali='sudo docker run -it --rm mykali /bin/bash'
 
 export PATH=$PATH:/usr/local/go/bin
