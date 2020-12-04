@@ -1,0 +1,13 @@
+betterdiscord
+betterdiscordctl-git
+cnijfilter-mg5500series
+cnijfilter2
+ghq
+gitflow-avh
+gnome-terminal-transparency
+google-chrome
+peco
+slack
+spotify
+visual-studio-code-bin
+zoom-system-qt

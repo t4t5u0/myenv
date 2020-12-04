@@ -1,287 +1,287 @@
-acpi 1.7-3
-acpid 2.0.32-2
-adapta-maia-theme 3.94.0.149-2
-alsa-firmware 1.2.4-2
-alsa-utils 1.2.4-2
-apparmor 3.0.0-2
-autoconf 2.69-7
-automake 1.16.2-3
-avahi 0.8+15+ge8a3dd0-1
-b43-fwcutter 019-3
-baobab 3.38.0-1
-bash-completion 2.11-1
-betterdiscord 0.3.0i.r0.g4114a6e-1
-betterdiscordctl-git 1.7.0.r0.g785ad01-2
-binutils 2.35.1-1
-bison 3.7.2-1
-blueman 2.1.3-1
-btrfs-progs 5.9-1
-bzip2 1.0.8-4
-chromium 87.0.4280.66-1
-cinnamon-panel-chooser 1.5-2
-cinnamon-sounds 5.7-1
-cinnamon-translations 4.8.0-1
-cinnamon-wallpapers 20190729-1
-cnijfilter-mg5500series 4.00-1
-cnijfilter2 6.00-1
-coreutils 8.32-1
-cpupower 5.9-1
-crda 4.14-3
-cronie 1.5.5-1
-cryptsetup 2.3.4-1
-dbus-x11 1.12.20-1
-dconf-editor 3.38.2-1
-deluge 2.0.4.dev38+g23a48dd01-2
-device-mapper 2.02.187-3
-dhclient 4.4.2-2
-dhcpcd 9.3.3-1
-diffutils 3.7-3
-discord 0.0.12-2
-dmidecode 3.3-1
-dmraid 1.0.0.rc16.3-12
-dnsmasq 2.82-2
-docker 1:19.03.13-1
-dosfstools 4.1-3
-e2fsprogs 1.45.6-3
-ecryptfs-utils 111-4
-efibootmgr 17-2
-exfat-utils 1.3.0-2
-f2fs-tools 1.14.0-1
-fakeroot 1.25.3-1
-fcitx 4.2.9.8-1
-fcitx-configtool 0.4.10-4
-fcitx-mozc 2.25.4150.102-2
-ffmpegthumbnailer 2.2.2-2
-file 5.39-1
-filesystem 2020.09-2
-findutils 4.7.0-2
-flatpak 1.9.2-1
-flex 2.6.4-3
-foomatic-db-ppds 3:20200822-1
-galculator 2.1.4-5
-gawk 5.1.0-1
-gcc 10.2.0-3
-gcc-libs 10.2.0-3
-gcolor2 0.4-9
-gettext 0.21-1
-ghc 8.10.2-1
-ghq 1.1.5-3
-gimp 2.10.22-1
-git 2.29.2-1
-gitflow-avh 1.12.3-1
-glibc 2.32-5
-gnome-disk-utility 3.38.0-1
-gnome-keyring 1:3.36.0-1
-gnome-online-accounts 3.38.0-1
-gnome-screenshot 3.38.0-1
-gnome-system-log 3.9.90+160+g4b07190-2
-gnome-system-monitor 3.38.0-1
-gnome-terminal-transparency 3.38.1-2
-gnome-themes-extra 3.28-2
-gnu-free-fonts 20120503-8
-go 2:1.15.5-2
-google-chrome 87.0.4280.88-1
-gparted 1.1.0-1
-gprename 20190221-3
-grep 3.6-1
-grub 2.04-12
-grub-theme-manjaro-dev 18.0-3
-gst-libav 1.18.1-1
-gst-plugins-bad 1.18.1-1
-gst-plugins-base 1.18.1-1
-gst-plugins-good 1.18.1-1
-gst-plugins-ugly 1.18.1-1
-gstreamer 1.18.1-1
-gtkhash-nemo 1.4-4
-gufw 20.04.1-4
-gvfs-afc 1.46.1-1
-gvfs-goa 1.46.1-1
-gvfs-google 1.46.1-1
-gvfs-gphoto2 1.46.1-1
-gvfs-mtp 1.46.1-1
-gvfs-smb 1.46.1-1
-gzip 1.10-3
-haveged 1.9.13-1
-hexchat 2.14.3-3
-htop 3.0.2-1
-icon-naming-utils 0.8.90-5
-inetutils 1.9.4-8
-intel-ucode 20201118-1
-inxi 3.1.08+1-1
-iproute2 5.9.0-1
-iptables 1:1.8.6-1
-iputils 20200821-1
-ipw2100-fw 1.3-10
-ipw2200-fw 3.1-8
-jfsutils 1.1.15-7
-jre8-openjdk 8.u265-1
-jre8-openjdk-headless 8.u265-1
-less 563-1
-lib32-flex 2.6.4-2
-lib32-libva-vdpau-driver 0.7.4-6
-lib32-mesa-demos 8.4.0-2
-lib32-mesa-vdpau 20.2.3-1
-lib32-vulkan-intel 20.2.3-1
-lib32-vulkan-radeon 20.2.3-1
-libdvdcss 1.4.2-2
-libgsf 1.14.47-1
-libinput-gestures 2.50-1
-libtool 2.4.6+42+gb88cebd5-14
-libva-mesa-driver 20.2.3-1
-libva-vdpau-driver 0.7.4-4
-licenses 20200427-1
-lightdm-settings 1.5.0-1
-lightdm-slick-greeter 1.5.0-1
-linux-firmware 20201124.r1786.b362fd4-1
-linux58 5.8.18-1
-logrotate 3.17.0-1
-lollypop 1.4.5-1
-lsb-release 1.4-13
-lvm2 2.02.187-3
-m4 1.4.18-3
-make 4.3-3
-man-db 2.9.3-1
-man-pages 5.09-2
-manjaro-alsa 20200126-1
-manjaro-application-utility 1.3.3-2
-manjaro-browser-settings 20201114-1
-manjaro-cinnamon-settings 20200804-1
-manjaro-documentation-en 20181009-1
-manjaro-firmware 20160419-1
-manjaro-hello 0.6.6-3
-manjaro-hotfixes 2018.08-6
-manjaro-printer 20200215-2
-manjaro-pulse 20200126-1
-manjaro-release 20.2-1
-manjaro-settings-manager-notifier 0.5.6-10
-manjaro-system 20201014-1
-mdadm 4.1-2
-memtest86+ 5.01-4
-mesa-demos 8.4.0-4
-mesa-vdpau 20.2.3-1
-mhwd 0.6.5-2
-mhwd-db 0.6.5-4
-microsoft-office-web-jak 1:2.1.1-2
-mkinitcpio-openswap 0.1.0-3
-mobile-broadband-provider-info 20190618-2
-modemmanager 1.14.8-1
-mousetweaks 3.32.0-2
-mugshot 0.4.2-1
-nano 5.3-1
-nemo-fileroller 4.8.0-2
-nemo-preview 4.8.0-2
-nemo-python 4.8.0-2
-nemo-share 4.8.0-2
-neofetch 7.1.0-2
-netctl 1.23-1
-networkmanager-openconnect 1.2.7dev+49+gc512d5a-1
-networkmanager-openvpn 1.8.12-1
-networkmanager-pptp 1.2.9dev+10+gb41b0d0-2
-networkmanager-vpnc 1.2.7dev+20+gdca3aea-2
-nfs-utils 2.5.2-2
-nmap 7.91-1
-npm 6.14.8-2
-nss-mdns 0.14.1-3
-ntfs-3g 2017.3.23-5
-ntp 4.2.8.p15-1
-numlockx 1.2-5
-openresolv 3.11.0-1
-openssh 8.4p1-2
-openvpn 2.5.0-3
-os-prober 1.77-1
-p7zip 16.02-6
-pacman 5.2.2-3
-pamac-gtk 9.5.12-1
-papirus-maia-icon-theme 20200702-1
-parcellite 1.2.1-4
-patch 2.7.6-8
-patchutils 0.4.2-1
-pavucontrol 1:4.0-2
-pciutils 3.7.0-1
-peco 0.5.8-2
-perl 5.32.0-3
-pidgin-libnotify 0.14-12
-pix 2.6.0-1
-pkgconf 1.7.3-1
-pkgfile 21-2
-poppler-data 0.4.10-1
-popsicle 1.3.0.r1.g1685d80-1
-powertop 2.13-1
-procps-ng 3.3.16-2
-psmisc 23.3-2
-pulseaudio-bluetooth 14.0-1
-pulseaudio-ctl 1.67-1
-pulseaudio-zeroconf 14.0-1
-python-ptyprocess 0.6.0-4
-qt5-styleplugins 5.0.0.20170311-25
-reiserfsprogs 3.6.27-3
-rsync 3.2.3-1
-s-nail 14.9.19-2
-screenfetch 3.9.1-1
-sed 4.8-1
-shadow 4.8.1-4
-sl 5.02-6
-slack 3.0-1
-snapd 2.48-1
-spectre-meltdown-checker 0.43-1
-spotify 1:1.1.42.622-2
-subversion 1.14.0-2
-sudo 1.9.3.p1-1
-sysfsutils 2.1.0-11
-system-config-printer 1.5.13-3
-systemd-fsck-silent 239-1
-systemd-sysvcompat 246.6-1
-tar 1.32-3
-terminus-font 4.48-3
-texinfo 6.7-3
-thunderbird 78.5.1-0.1
-timeshift 20.11.1.r3.g08d0e59-2
-tlp 1.3.1-2
-tmux 3.1_c-1
-tree 1.8.0-2
-ttf-dejavu 2.37+18+g9b5d1b2f-2
-ttf-droid 20121017-8
-ttf-inconsolata 1:3.000-2
-ttf-indic-otf 0.2-11
-ttf-liberation 2.1.1-1
-udiskie 2.2.0-2
-usbutils 013-1
-util-linux 2.36.1-3
-vi 1:070224-4
-vim 8.2.1989-2
-visual-studio-code-bin 1.51.1-1
-vulkan-intel 20.2.3-1
-vulkan-radeon 20.2.3-1
-wget 1.20.3-3
-which 2.21-5
-wpa_supplicant 2:2.9-7
-xcursor-chameleon-pearl-deepin 0.5-5
-xdg-user-dirs-gtk 0.10+9+g5b7efc6-3
-xdg-utils 1.1.3+19+g9816ebb-1
-xed 2.8.0-1
-xf86-input-elographics 1.4.2-2
-xf86-input-evdev 2.10.6-2
-xf86-input-libinput 0.30.0-1
-xf86-input-synaptics 1.9.1-2
-xf86-input-void 1.4.1-5
-xf86-video-amdgpu 19.1.0-2
-xf86-video-ati 1:19.1.0-2
-xf86-video-intel 1:2.99.917+913+g9236c582-1
-xf86-video-nouveau 1.0.16-2
-xfsprogs 5.8.0-1
-xorg-server 1.20.10-0
-xorg-twm 1.0.11-1
-xorg-xhost 1.0.8-2
-xorg-xinit 1.4.1-3
-xorg-xinput 1.6.3-2
-xorg-xkill 1.0.5-2
-xorg-xlsfonts 1.0.6-3
-xorg-xrandr 1.5.1-2
-xplayer 2.2.8-2
-xreader 2.6.4-1
-xviewer-plugins 1.2.0.r1.gba9ce0f-1
-yay 10.1.1-1
-yelp 3.38.2-1
-zensu 0.3-1
-zoom-system-qt 5.4.54779.1115-1
-zsh 5.8-1
+acpi
+acpid
+adapta-maia-theme
+alsa-firmware
+alsa-utils
+apparmor
+autoconf
+automake
+avahi
+b43-fwcutter
+baobab
+bash-completion
+betterdiscord
+betterdiscordctl-git
+binutils
+bison
+blueman
+btrfs-progs
+bzip2
+chromium
+cinnamon-panel-chooser
+cinnamon-sounds
+cinnamon-translations
+cinnamon-wallpapers
+cnijfilter-mg5500series
+cnijfilter2
+coreutils
+cpupower
+crda
+cronie
+cryptsetup
+dbus-x11
+dconf-editor
+deluge
+device-mapper
+dhclient
+dhcpcd
+diffutils
+discord
+dmidecode
+dmraid
+dnsmasq
+docker
+dosfstools
+e2fsprogs
+ecryptfs-utils
+efibootmgr
+exfat-utils
+f2fs-tools
+fakeroot
+fcitx
+fcitx-configtool
+fcitx-mozc
+ffmpegthumbnailer
+file
+filesystem
+findutils
+flatpak
+flex
+foomatic-db-ppds
+galculator
+gawk
+gcc
+gcc-libs
+gcolor2
+gettext
+ghc
+ghq
+gimp
+git
+gitflow-avh
+glibc
+gnome-disk-utility
+gnome-keyring
+gnome-online-accounts
+gnome-screenshot
+gnome-system-log
+gnome-system-monitor
+gnome-terminal-transparency
+gnome-themes-extra
+gnu-free-fonts
+go
+google-chrome
+gparted
+gprename
+grep
+grub
+grub-theme-manjaro-dev
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer
+gtkhash-nemo
+gufw
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+gzip
+haveged
+hexchat
+htop
+icon-naming-utils
+inetutils
+intel-ucode
+inxi
+iproute2
+iptables
+iputils
+ipw2100-fw
+ipw2200-fw
+jfsutils
+jre8-openjdk
+jre8-openjdk-headless
+less
+lib32-flex
+lib32-libva-vdpau-driver
+lib32-mesa-demos
+lib32-mesa-vdpau
+lib32-vulkan-intel
+lib32-vulkan-radeon
+libdvdcss
+libgsf
+libinput-gestures
+libtool
+libva-mesa-driver
+libva-vdpau-driver
+licenses
+lightdm-settings
+lightdm-slick-greeter
+linux-firmware
+linux58
+logrotate
+lollypop
+lsb-release
+lvm2
+m4
+make
+man-db
+man-pages
+manjaro-alsa
+manjaro-application-utility
+manjaro-browser-settings
+manjaro-cinnamon-settings
+manjaro-documentation-en
+manjaro-firmware
+manjaro-hello
+manjaro-hotfixes
+manjaro-printer
+manjaro-pulse
+manjaro-release
+manjaro-settings-manager-notifier
+manjaro-system
+mdadm
+memtest86+
+mesa-demos
+mesa-vdpau
+mhwd
+mhwd-db
+microsoft-office-web-jak
+mkinitcpio-openswap
+mobile-broadband-provider-info
+modemmanager
+mousetweaks
+mugshot
+nano
+nemo-fileroller
+nemo-preview
+nemo-python
+nemo-share
+neofetch
+netctl
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nfs-utils
+nmap
+npm
+nss-mdns
+ntfs-3g
+ntp
+numlockx
+openresolv
+openssh
+openvpn
+os-prober
+p7zip
+pacman
+pamac-gtk
+papirus-maia-icon-theme
+parcellite
+patch
+patchutils
+pavucontrol
+pciutils
+peco
+perl
+pidgin-libnotify
+pix
+pkgconf
+pkgfile
+poppler-data
+popsicle
+powertop
+procps-ng
+psmisc
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+python-ptyprocess
+qt5-styleplugins
+reiserfsprogs
+rsync
+s-nail
+screenfetch
+sed
+shadow
+sl
+slack
+snapd
+spectre-meltdown-checker
+spotify
+subversion
+sudo
+sysfsutils
+system-config-printer
+systemd-fsck-silent
+systemd-sysvcompat
+tar
+terminus-font
+texinfo
+thunderbird
+timeshift
+tlp
+tmux
+tree
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+udiskie
+usbutils
+util-linux
+vi
+vim
+visual-studio-code-bin
+vulkan-intel
+vulkan-radeon
+wget
+which
+wpa_supplicant
+xcursor-chameleon-pearl-deepin
+xdg-user-dirs-gtk
+xdg-utils
+xed
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-synaptics
+xf86-input-void
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-intel
+xf86-video-nouveau
+xfsprogs
+xorg-server
+xorg-twm
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xlsfonts
+xorg-xrandr
+xplayer
+xreader
+xviewer-plugins
+yay
+yelp
+zensu
+zoom-system-qt
+zsh
