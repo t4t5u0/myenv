@@ -3,6 +3,7 @@
 # IMPORTS {{{
 # source ~/.bashrc
 source ~/.zplug/init.zsh
+fpath+=~/.zfunc
 # }}}
 
 # PLUGINS {{{
@@ -149,10 +150,17 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # t4t5u0
-alias dev='cd ~/Develop'
+alias dev='cd ~/Develop/src'
 alias q='exit'
-alias discord='nohup discord >/dev/null 2>&1 &'
 
+# application
+alias discord='nohup discord > /dev/null 2>&1 &'
+alias jl='nohup jupyter-lab > /dev/null 2>&1 &'
+alias zoom='nohup zoom > /dev/null 2>&1 &'
+
+#clipboard
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
 
 # prefix alias
 # 便利そうなものをいくつか
@@ -167,7 +175,8 @@ alias -g X='| xargs'
 
 # suffix alias
 alias -s gz='tar -xzvf' # ./hoge.tar.gz で展開できる
-
+alias -s py='pytohn'
+alias -s hs='runhaskell'
 
 # }}}
 
@@ -340,3 +349,11 @@ if [ -f /usr/share/doc/pkgfile/command-not-found.zsh ]; then
 	source /usr/share/doc/pkgfile/command-not-found.zsh
 fi
 # }}}
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/t4t5u0/.sdkman"
+[[ -s "/home/t4t5u0/.sdkman/bin/sdkman-init.sh" ]] && source "/home/t4t5u0/.sdkman/bin/sdkman-init.sh"
+
+# cabal
+export PATH="$HOME/.cabal/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
