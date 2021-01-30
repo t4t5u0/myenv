@@ -4,6 +4,7 @@
 # source ~/.bashrc
 source ~/.zplug/init.zsh
 fpath+=~/.zfunc
+fpath=(~/.zsh/completion $fpath)
 # }}}
 
 # PLUGINS {{{
@@ -115,9 +116,9 @@ alias reload='source ~/.zshrc' # .zshrc編集中は多用してます
 alias ssh='TERM=xterm ssh'
 
 # cd
-alias ..2='cd ../..'
-alias ..3='cd ../../..'
-alias ..4='cd ../../../..'
+alias ..2='cd ../../'
+alias ..3='cd ../../../'
+alias ..4='cd ../../../../'
 
 # dotfiles
 # alias dot='cd ~/dev/src/github.com/reireias/dotfiles'
@@ -125,18 +126,18 @@ alias zshconfig='vim ~/.zshrc'
 alias vimconfig='vim ~/.vimrc'
 
 # git
-alias g='git'
-alias gb='git branch'
-alias gl='git log --pretty=format:"%C(yellow)%h%Creset %C(magenta)%ci%Creset%n%C(cyan)%an <%ae>%Creset%n%B"'
-alias glp='git log -p'
-alias glg='git log --graph --pretty=format:"%C(yellow)%h%Creset %C(magenta)%ci%Creset%n%C(cyan)%an <%ae>%Creset%n%B"'
-alias gco='git checkout'
-alias gd='git diff'
-alias gdh='git diff HEAD'
-alias gds='git diff --stat'
-alias gdt='git difftool'
-alias gst='git status'
-alias gp='git pull'
+#alias g='git'
+#alias gb='git branch'
+#alias gl='git log --pretty=format:"%C(yellow)%h%Creset %C(magenta)%ci%Creset%n%C(cyan)%an <%ae>%Creset%n%B"'
+#alias glp='git log -p'
+#alias glg='git log --graph --pretty=format:"%C(yellow)%h%Creset %C(magenta)%ci%Creset%n%C(cyan)%an <%ae>%Creset%n%B"'
+#alias gco='git checkout'
+#alias gd='git diff'
+#alias gdh='git diff HEAD'
+#alias gds='git diff --stat'
+#alias gdt='git difftool'
+#alias gst='git status'
+#alias gp='git pull'
 
 # docker
 alias d='docker'
@@ -145,9 +146,9 @@ alias dps='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}\t{{.Stat
 alias dc='docker-compose'
 
 # safety
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
+alias cpi='cp -i'
+alias mvi='mv -i'
+alias rmi='rm -i'
 
 # t4t5u0
 alias dev='cd ~/Develop/src'
@@ -157,6 +158,8 @@ alias q='exit'
 alias discord='nohup discord > /dev/null 2>&1 &'
 alias jl='nohup jupyter-lab > /dev/null 2>&1 &'
 alias zoom='nohup zoom > /dev/null 2>&1 &'
+alias slack='nohup slack > /dev/null 2>&1 &'
+alias LS='sl'
 
 #clipboard
 alias pbcopy='xsel --clipboard --input'
@@ -166,16 +169,17 @@ alias pbpaste='xsel --clipboard --output'
 # 便利そうなものをいくつか
 alias -g A='| awk'
 alias -g C='| pbcopy' # copy
-alias -g C='| wc -l' # count
+#alias -g C='| wc -l' # count
 alias -g G='| grep --color=auto' # 鉄板
 alias -g H='| head' # 当然tailもね
 alias -g T='| tail'
 alias -g L='| less -R'
+alias -g S='| sed'
 alias -g X='| xargs'
 
 # suffix alias
 alias -s gz='tar -xzvf' # ./hoge.tar.gz で展開できる
-alias -s py='pytohn'
+alias -s py='python'
 alias -s hs='runhaskell'
 
 # }}}
@@ -357,3 +361,5 @@ export SDKMAN_DIR="/home/t4t5u0/.sdkman"
 # cabal
 export PATH="$HOME/.cabal/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+alias yowa='ssh yowa@153.120.166.49'
