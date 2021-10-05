@@ -83,9 +83,9 @@ man() {
 
 # PROMPT {{{
 # prompt
-PROMPT=" %{[38;5;154m%}%~%{[0m%}
- %{[38;5;81m%}%(!.#.$)%{[0m%} "
-RPROMPT="%{[38;5;013m%}[%m]%{[0m%}"
+# PROMPT=" %{[38;5;154m%}%~%{[0m%}
+#  %{[38;5;81m%}%(!.#.$)%{[0m%} "
+# RPROMPT="%{[38;5;013m%}[%m]%{[0m%}"
 
 # vcs_info
 autoload -Uz vcs_info
@@ -362,4 +362,4 @@ export SDKMAN_DIR="/home/t4t5u0/.sdkman"
 export PATH="$HOME/.cabal/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-alias yowa='ssh yowa@153.120.166.49'
+eval "$(starship init zsh)"
