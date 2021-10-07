@@ -53,8 +53,8 @@ fi
 
 # COLOR {{{
 # LS_COLORS
-eval `dircolors -b`
-eval `dircolors ${HOME}/.dir_colors`
+# eval `dircolors -b`
+# eval `dircolors ${HOME}/.dir_colors`
 
 # remove file mark
 unsetopt list_types
@@ -101,24 +101,24 @@ RPROMPT='${vcs_info_msg_0_} '$RPROMPT
 
 # ALIAS {{{
 # general
-alias ls='ls -h --color=always'
-alias dir='ls --color=auto --format=vertical'
-alias vdir='ls --color=auto --format=long'
+alias ls='exa --icons'
 alias ll='ls -l'        # 多用します
-alias la='ls -A'        # 多用します
-alias l='ls -CF'
+alias la='ls -a'        # 多用します
+alias l='ls -F'
 alias du='du -sh *'     # ディレクトリごとにサブディレクトリ含む合計容量を出力します
-alias open='xdg-open' # htmlファイルをopenすればブラウザで開くことができます
-alias caddy='ruby /opt/caddy/caddy/caddy.rb'
-alias terminal='gnome-terminal --hide-menubar'
+if [ "$(uname)" == 'Linux' ]; then
+  alias open='xdg-open' # htmlファイルをopenすればブラウザで開くことができます
+  alias terminal='gnome-terminal --hide-menubar'
+fi
+# alias caddy='ruby /opt/caddy/caddy/caddy.rb'
 alias tm='terminal'     # tm ./ で現在いるディレクトリでターミナルを複製できます
 alias reload='source ~/.zshrc' # .zshrc編集中は多用してます
 alias ssh='TERM=xterm ssh'
 
 # cd
-alias ..2='cd ../../'
-alias ..3='cd ../../../'
-alias ..4='cd ../../../../'
+# alias ..2='cd ../../'
+# alias ..3='cd ../../../'
+# alias ..4='cd ../../../../'
 
 # dotfiles
 # alias dot='cd ~/dev/src/github.com/reireias/dotfiles'
@@ -162,8 +162,10 @@ alias slack='nohup slack > /dev/null 2>&1 &'
 alias LS='sl'
 
 #clipboard
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
+if [ "$(uname)" == 'Linux' ]; then
+  alias pbcopy='xsel --clipboard --input'
+  alias pbpaste='xsel --clipboard --output'
+fi
 
 # prefix alias
 # 便利そうなものをいくつか
